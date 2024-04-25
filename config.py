@@ -28,11 +28,11 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5566931950"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodbaroonhassahassan85.hafobrn.mongodb.net/?retryWrites=true&w=majority&appName=haroonhassan85")
-DB_NAME = os.environ.get("DATABASE_NAME", "harossan85")
+DB_URI = os.environ.get("DATABASE_URL", "https://cloud.mongodb.com/v2/662a3a35e6044373f292eea8#/overview")
+DB_NAME = os.environ.get("DATABASE_NAME", "mongodb+srv://sukhwindersandhu00444:Q25nxQwESOxGYRrp@cluster0.ubmekux.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001839447589"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002075409254"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
